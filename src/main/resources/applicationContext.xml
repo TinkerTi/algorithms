@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="com.tinker"/>
+
+    <bean id="testBean" class="com.tinker.springweb.bean.TestBean" name="testBean,testBean2">
+    </bean>
+    <bean id="mysqlDataSource" class="com.tinker.springweb.bean.MysqlDataSource">
+        <qualifier value="mysql"/>
+    </bean>
+    <bean id="oracleDataSource" class="com.tinker.springweb.bean.OracleDataSource">
+        <qualifier value="oracle"/>
+    </bean>
+
+    <aop:aspectj-autoproxy/>
+    <bean id="printServiceImpl" class="com.tinker.springweb.aop.PrintServiceImpl"/>
+    <bean id="aopAdvisor" class="com.tinker.springweb.aop.TestAdvisor"/>
+</beans>
