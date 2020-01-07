@@ -5,7 +5,10 @@ public class ArrayRelated {
     public static void main(String[] args) {
 //        int[] data = {2, 1, 4, 3, 7, 6, 9};
 //        data = reconstruct(data);
-        testPrintCircle();
+//        testPrintCircle();
+//        testFindMoreHalfNum();
+//        testSequenceMaxSum();
+        testCountOne();
     }
 
     private static void testPrintCircle() {
@@ -13,8 +16,97 @@ public class ArrayRelated {
         printCircle(data);
     }
 
+    private static void testFindMoreHalfNum() {
+        int[] data = {2, 1, 2, 2, 2, 6, 9};
+        try {
+            System.out.println(findMoreHalfNum(data));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void testSequenceMaxSum() {
+        int[] data = {1, -2, 3, 10, -4, 7, 2, -5};
+        try {
+            System.out.println(sequenceMaxSum(data));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void testCountOne(){
+        System.out.println(countOne(12));
+    }
+
+    private static int countOne(int num) {
+        int count = 0;
+        for (int i = 1; i <= num; i++) {
+            count += count(i);
+        }
+        return count;
+    }
+
+    private static int count(int data) {
+        int count = 0;
+        while (data != 0) {
+            data = data & (data - 1);
+            count++;
+        }
+        return count;
+    }
+
+    private static int sequenceMaxSum(int[] data) throws Exception {
+        if (data == null || data.length == 0) {
+            throw new Exception();
+        }
+        int maxSum = data[0];
+        int curSum = 0;
+        for (int i = 0; i < data.length; i++) {
+            curSum = data[i] + curSum;
+            maxSum = Math.max(maxSum, curSum);
+            curSum = curSum < 0 ? 0 : curSum;
+        }
+        return maxSum;
+    }
+
+    private static int findMoreHalfNum(int[] data) throws Exception {
+        if (data == null || data.length == 0) {
+            throw new Exception();
+        }
+        int start = 0;
+        int end = data.length - 1;
+        int mid = (start + end) / 2;
+        while (start < end) {
+            int point = partition(data, start, end);
+            if (mid == point) {
+                return data[point];
+            } else if (mid < point) {
+                end = point - 1;
+            } else {
+                start = point + 1;
+            }
+        }
+        throw new Exception();
+    }
+
+    private static int partition(int[] data, int start, int end) {
+        int point = data[start];
+        while (start < end) {
+            while (start < end && data[start] < point) {
+                start++;
+            }
+            while (start < end && data[end] >= point) {
+                end--;
+            }
+            swap(data, start, end);
+        }
+        return start;
+    }
+
+
     /**
      * 顺时针打印二位数组；
+     *
      * @param data
      */
     private static void printCircle(int[][] data) {
@@ -31,13 +123,13 @@ public class ArrayRelated {
             for (int i = count; i < col - count * 2; i++) {
                 System.out.print(data[count][i]);
             }
-            for (int i = count+1; i < row - count * 2-1; i++) {
-                System.out.print(data[i][col - count-1]);
+            for (int i = count + 1; i < row - count * 2 - 1; i++) {
+                System.out.print(data[i][col - count - 1]);
             }
-            for (int i = col - count * 2 +1; i >= count ; i--) {
-                System.out.print(data[row - count-1][i]);
+            for (int i = col - count * 2 + 1; i >= count; i--) {
+                System.out.print(data[row - count - 1][i]);
             }
-            for (int i = count+1; i < row - count * 2-1; i++) {
+            for (int i = count + 1; i < row - count * 2 - 1; i++) {
                 System.out.print(data[i][count]);
             }
             System.out.println("");
@@ -48,6 +140,7 @@ public class ArrayRelated {
 
     /**
      * 给定数组，使得最终奇数全部在偶数的左边
+     *
      * @param data
      * @return
      */

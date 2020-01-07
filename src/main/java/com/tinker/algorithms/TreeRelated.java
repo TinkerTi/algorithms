@@ -10,7 +10,9 @@ public class TreeRelated {
 //        System.out.println(testSubTree());
 //        print(testReverseTree());
 //        testIsSearchTree();
-        testTreeSumPath();
+//        testTreeSumPath();
+//        testTreeHeight();
+        testBalanceTree();
     }
 
     private static TreeNode testReverseTree() {
@@ -95,8 +97,84 @@ public class TreeRelated {
         treeSumPath(treeNode0, 10, 0, new LinkedList<>());
     }
 
+    private static void testTreeHeight() {
+        TreeNode treeNode0 = new TreeNode(0);
+        TreeNode treeNode1 = new TreeNode(1);
+        TreeNode treeNode2 = new TreeNode(2);
+        TreeNode treeNode3 = new TreeNode(3);
+        TreeNode treeNode4 = new TreeNode(3);
+        TreeNode treeNode5 = new TreeNode(2);
+        TreeNode treeNode6 = new TreeNode(6);
+        TreeNode treeNode7 = new TreeNode(6);
+        TreeNode treeNode8 = new TreeNode(6);
+        TreeNode treeNode9 = new TreeNode(6);
+        TreeNode treeNode10 = new TreeNode(6);
+        treeNode0.left = treeNode1;
+        treeNode0.right = treeNode2;
+        treeNode1.left = treeNode3;
+        treeNode1.right = treeNode4;
+        treeNode2.left = treeNode5;
+        treeNode3.left = treeNode6;
+        treeNode3.right = treeNode7;
+        treeNode4.left = treeNode8;
+        treeNode4.right = treeNode9;
+        treeNode9.left = treeNode10;
+        System.out.println(treeHeight(treeNode0, 0));
+    }
+
+    private static void testBalanceTree() {
+        TreeNode treeNode0 = new TreeNode(0);
+        TreeNode treeNode1 = new TreeNode(1);
+        TreeNode treeNode2 = new TreeNode(2);
+        TreeNode treeNode3 = new TreeNode(3);
+        TreeNode treeNode4 = new TreeNode(3);
+        TreeNode treeNode5 = new TreeNode(2);
+        TreeNode treeNode6 = new TreeNode(6);
+        TreeNode treeNode7 = new TreeNode(6);
+        TreeNode treeNode8 = new TreeNode(6);
+        TreeNode treeNode9 = new TreeNode(6);
+        TreeNode treeNode10 = new TreeNode(6);
+        treeNode0.left = treeNode1;
+        treeNode0.right = treeNode2;
+        treeNode1.left = treeNode3;
+        treeNode1.right = treeNode4;
+        treeNode2.left = treeNode5;
+        treeNode3.left = treeNode6;
+        treeNode3.right = treeNode7;
+        treeNode4.left = treeNode8;
+        treeNode4.right = treeNode9;
+        treeNode9.left = treeNode10;
+        balanceTree(treeNode0, 0);
+        System.out.println(isBalanced);
+    }
+
+    private static boolean isBalanced = true;
+    private static int balanceTree(TreeNode root, int h) {
+        if (root == null) {
+            return h;
+        }
+        h = h + 1;
+        int left = treeHeight(root.left, h);
+        int right = treeHeight(root.right, h);
+        if (Math.abs(left - right) > 1) {
+            isBalanced = false;
+        }
+        return Math.max(left, right);
+    }
+
+    private static int treeHeight(TreeNode root, int h) {
+        if (root == null) {
+            return h;
+        }
+        h = h + 1;
+        int left = treeHeight(root.left, h);
+        int right = treeHeight(root.right, h);
+        return Math.max(left, right);
+    }
+
     /**
      * 路径（根节点到叶子节点的路径）上的节点值之和等于某个目标值
+     *
      * @param root
      * @param target
      * @param sum
@@ -137,6 +215,7 @@ public class TreeRelated {
 
     /**
      * 判断一数组，是否为二叉搜索树的后序遍历结果
+     *
      * @param data
      * @param start
      * @param end
@@ -182,6 +261,7 @@ public class TreeRelated {
 
     /**
      * 二叉树的镜像
+     *
      * @param root
      * @return
      */
@@ -197,6 +277,7 @@ public class TreeRelated {
 
     /**
      * 判断 B 是否为 A 的子树
+     *
      * @param root1
      * @param root2
      * @return
@@ -233,6 +314,7 @@ public class TreeRelated {
 
     /**
      * 水平打印二叉树
+     *
      * @param root
      */
     private static void printTreeByLevel(TreeNode root) {
@@ -256,6 +338,7 @@ public class TreeRelated {
 
     /**
      * 根据前序遍历和中序遍历数组，构造二叉树；
+     *
      * @param data1
      * @param data2
      * @param start1
