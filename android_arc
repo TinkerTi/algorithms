@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-06T00:22:39.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="1jE5BJNXbXl7qgQH9c2u" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-06T14:33:19.859Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="qqzzMZMQ6SlgRvLO-6cs" version="15.0.3" type="github">
   <diagram id="hp-X7_xfpeRbEtV6C3eo" name="Page-1">
     <mxGraphModel dx="786" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,10 +25,10 @@
         <mxCell id="IphDzU-L_VHlnHI1UGyt-7" value="路由服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IphDzU-L_VHlnHI1UGyt-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IphDzU-L_VHlnHI1UGyt-21" value="消息服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IphDzU-L_VHlnHI1UGyt-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IphDzU-L_VHlnHI1UGyt-22" value="消息服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IphDzU-L_VHlnHI1UGyt-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
