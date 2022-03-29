@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T08:05:48.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="8zjyHKseIKB8nSZGEeMm" version="17.1.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-03-29T08:08:36.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="WINJdgve2bmn7ZdzP6a6" version="17.1.3" type="github" pages="12">
   <diagram id="_zAFDHpBvNTelXHX6kID" name="Page-1">
     <mxGraphModel dx="786" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -840,86 +840,86 @@
           <mxGeometry x="350" y="400" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-27" value="配送需求" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="230" y="535" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="528" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-28" value="静态配送需求" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="90" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-29" value="动态配送需求" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="365" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-30" value="配送时间窗口限制" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="90" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-31" value="运力限制" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="365" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-32" value="无延迟" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="90" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="690" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-33" value="有延迟" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="365" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="690" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-34" value="带有约束条件的成本最小化模型" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="165" y="920" width="250" height="50" as="geometry" />
+          <mxGeometry x="170" y="896" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-35" value="众包参与" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="230" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-36" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;模&lt;br&gt;型&lt;br&gt;构&lt;br&gt;建&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
           <mxGeometry x="-20" y="670" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-39" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;shadow=0;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;strokeWidth=1;" edge="1" parent="W63LapXG3Imi1dhUyPFV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="289.5" y="870" as="sourcePoint" />
-            <mxPoint x="289.5" y="920" as="targetPoint" />
+            <mxPoint x="289.5" y="840" as="sourcePoint" />
+            <mxPoint x="289.5" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-41" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;strokeWidth=1.5;shadow=0;" edge="1" parent="W63LapXG3Imi1dhUyPFV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="980" as="sourcePoint" />
-            <mxPoint x="640" y="980" as="targetPoint" />
+            <mxPoint x="20" y="946" as="sourcePoint" />
+            <mxPoint x="640" y="946" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-42" value="&lt;b style=&quot;font-size: 18px&quot;&gt;算&lt;br&gt;法&lt;br&gt;求&lt;br&gt;解&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="-20" y="1027.5" width="60" height="90" as="geometry" />
+          <mxGeometry x="-20" y="993.5" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-43" value="算法求解" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="50" y="1047.5" width="100" height="50" as="geometry" />
+          <mxGeometry x="50" y="1013.5" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-44" value="变邻域搜索算法" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="225" y="990" width="130" height="45" as="geometry" />
+          <mxGeometry x="225" y="956" width="130" height="45" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-45" value="结合机器学习算法" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="225" y="1050" width="130" height="45" as="geometry" />
+          <mxGeometry x="225" y="1016" width="130" height="45" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-46" value="结合再优化算法" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="225" y="1107.5" width="130" height="45" as="geometry" />
+          <mxGeometry x="225" y="1073.5" width="130" height="45" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;shadow=0;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;strokeWidth=1;" edge="1" parent="W63LapXG3Imi1dhUyPFV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="1072.5" as="sourcePoint" />
-            <mxPoint x="220" y="1072" as="targetPoint" />
+            <mxPoint x="160" y="1038.5" as="sourcePoint" />
+            <mxPoint x="220" y="1038" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;shadow=0;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;strokeWidth=1;" edge="1" parent="W63LapXG3Imi1dhUyPFV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="1072.5" as="sourcePoint" />
-            <mxPoint x="430" y="1072" as="targetPoint" />
+            <mxPoint x="370" y="1038.5" as="sourcePoint" />
+            <mxPoint x="430" y="1038" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-52" value="算例分析" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="440" y="1020" width="90" height="47.5" as="geometry" />
+          <mxGeometry x="440" y="986" width="90" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-53" value="参数分析" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBorderColor=none;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;" vertex="1" parent="W63LapXG3Imi1dhUyPFV-1">
-          <mxGeometry x="440" y="1080" width="90" height="45" as="geometry" />
+          <mxGeometry x="440" y="1046" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="W63LapXG3Imi1dhUyPFV-54" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;shadow=0;fontFamily=宋体-简;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3D%25E5%25AE%258B%25E4%25BD%2593-%25E7%25AE%2580;fontSize=16;strokeWidth=1;" edge="1" parent="W63LapXG3Imi1dhUyPFV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="289.5" y="600" as="sourcePoint" />
-            <mxPoint x="289.5" y="650" as="targetPoint" />
+            <mxPoint x="289.5" y="579" as="sourcePoint" />
+            <mxPoint x="289.5" y="629" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
